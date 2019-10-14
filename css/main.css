@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+section {
+  background-color: #eee9de;
+  font-family: "Lato", serif;
+  padding: 1em 2em .4em .75em;
+  margin: 1rem;
+  line-height: 1.5;
+  display: inline-block;
+  margin-left: 1.5em;
+}
+
+section img {
+  display: inline-block;
+  padding: 2em 1em;
+  width: 100%;
+  max-width: 25em;
+  float: left;
+}
+
+h2 {
+  color: #333;
+  display: inline-block;
+  text-align: left;
+  max-width: 25em;
+  float: left;
+}
+
+section p {
+  display: inline-block;
+  max-width: 25em;
+  text-align: left;
+  clear: right;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: .5em;
+  padding: .5em;
+  margin: 1.5rem;
+  border-style: solid;
+  border-color: #666;
+  color: #666;
+  text-decoration: none;
+  max-width: 25em;
+  clear: both;
+}
+
+a:hover {
+  background-color: #666;
+  color: #fff;
+}
