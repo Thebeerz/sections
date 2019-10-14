@@ -6,7 +6,7 @@ html {
   box-sizing: inherit;
 }
 
-section {
+body {
   background-color: #eee9de;
   font-family: "Lato", serif;
   padding: 1em 2em .4em .75em;
@@ -25,7 +25,7 @@ section img {
 }
 
 h2 {
-  color: #333;
+  color: #000;
   display: inline-block;
   text-align: left;
   max-width: 25em;
@@ -39,7 +39,7 @@ section p {
   clear: right;
 }
 
-.btn {
+.btn a {
   display: inline-block;
   border-radius: .5em;
   padding: .5em;
@@ -47,12 +47,13 @@ section p {
   border-style: solid;
   border-color: #666;
   color: #666;
+  text-align: center;
   text-decoration: none;
   max-width: 25em;
   clear: both;
 }
 
-a:hover {
+.btn a:hover {
   background-color: #666;
   color: #fff;
 }
