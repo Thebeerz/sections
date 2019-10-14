@@ -18,11 +18,12 @@ body {
 }
 
 img {
-  display: block;
+  display: inline-block;
   padding: 3em 1em 0;
   margin-top: 1em;
   width: 100%;
   max-width: 25em;
+  float: left;
 }
 
 h2 {
@@ -30,10 +31,10 @@ h2 {
   display: inline-block;
   text-align: left;
   max-width: 25em;
-  float: left;
+  clear: both;
 }
 
-p {
+div p {
   display: inline-block;
   max-width: 25em;
   text-align: left;
@@ -44,17 +45,16 @@ p {
   display: inline-block;
   border-radius: .5em;
   padding: .5em;
-  margin: 1.5rem;
   color: #666;
   background-color: #eee9de;
   border-style: solid;
   border-color: #333;
   border-width: medium;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   max-width: 25em;
-  font-size: 1.5rem;
-  clear: left;
+  font-size: 1.25rem;
+  float: none;
 }
 
 .btn:hover {
