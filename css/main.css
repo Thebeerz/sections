@@ -31,12 +31,10 @@ img {
 h2 {
   color: #000;
   padding: .5em 1em 0;
-  margin: auto;
 }
 
 div p {
   padding: 1em;
-  margin: auto;
   max-width: 25em;
   width: 95%;
   flex-wrap: wrap;
@@ -49,19 +47,20 @@ img section {
   flex: 0 1 auto;
 }
 
+section {
+  margin: 3em;
+}
+
 div {
   display: inline-block;
   justify-content: center;
   max-width: 25em;
   clear: both;
   text-align: left;
-  margin: auto;
 }
 
 .btn {
-  display: inline-block;
   border-radius: .5em;
-  margin: 1em;
   padding: .5em;
   color: #333;
   background-color: #eee9de;
@@ -71,7 +70,6 @@ div {
   text-decoration: none;
   max-width: 25em;
   font-size: 1.125rem;
-  float: none;
   text-align: center;
 }
 
