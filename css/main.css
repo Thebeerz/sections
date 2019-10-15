@@ -12,10 +12,9 @@ body {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
   padding: .4em .75em .5em;
-  margin: auto;
+  margin: 0;
   line-height: 1.5;
   display: inline-block;
-  margin: auto;
   vertical-align: middle;
 }
 
