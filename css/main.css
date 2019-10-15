@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  max-width: 960px;
+  margin: 3em auto;
 }
 
 *, *::before, *::after {
@@ -9,41 +11,51 @@ html {
 body {
   background-color: #eee9de;
   font-family: Lato, sans-serif;
-  padding: 1em 2em .4em .75em;
-  margin: 0;
+  padding: .4em .75em .5em;
+  margin: auto;
   line-height: 1.5;
   display: inline-block;
-  margin-left: 1.5em;
+  margin: auto;
   vertical-align: middle;
 }
 
 img {
   display: block;
-  margin-top: 1em;
+  margin-top: .5em;
   width: 100%;
   max-width: 25em;
+  padding-left: 0 1em;
   float: left;
 }
 
 h2 {
-  display: inline-block;
   color: #000;
-  padding-top: 1.5em;
-  margin: .75em;
-  justify-content: center;
-  max-width: 25em;
-  clear: both;
-  text-align: left;
+  padding: .5em 1em 0;
+  margin: auto;
 }
 
 div p {
-  display: inline-block;
-  margin: 1em;
+  padding: 1em;
+  margin: auto;
   max-width: 25em;
   width: 95%;
   flex-wrap: wrap;
   clear: right;
   justify-content: center;
+}
+
+img section {
+  margin: auto;
+  flex: 0 1 auto;
+}
+
+div {
+  display: inline-block;
+  justify-content: center;
+  max-width: 25em;
+  clear: both;
+  text-align: left;
+  margin: auto;
 }
 
 .btn {
