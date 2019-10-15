@@ -15,7 +15,6 @@ body {
   display: inline-block;
   margin-left: 1.5em;
   vertical-align: middle;
-  text-align: center;
 }
 
 img {
@@ -45,7 +44,7 @@ div p {
   justify-content: center;
 }
 
-.btn {
+.btn a {
   display: inline-block;
   border-radius: .5em;
   margin: 1em;
@@ -55,6 +54,7 @@ div p {
   border-style: solid;
   border-color: #333;
   border-width: medium;
+  text-align: center;
   text-decoration: none;
   max-width: 25em;
   font-size: 1.125rem;
