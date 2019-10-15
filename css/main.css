@@ -33,6 +33,7 @@ h2 {
   justify-content: center;
   max-width: 25em;
   clear: both;
+  text-align: center;
 }
 
 div p {
@@ -41,7 +42,6 @@ div p {
   max-width: 25em;
   flex-wrap: wrap;
   clear: right;
-  text-align: center;
   justify-content: center;
 }
 
