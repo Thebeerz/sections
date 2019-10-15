@@ -28,6 +28,8 @@ img {
 
 h2 {
   color: #000;
+  padding-top: 1.5em;
+  padding: 1em;
   display: inline-block;
   text-align: left;
   max-width: 25em;
@@ -37,7 +39,7 @@ h2 {
 div p {
   display: inline-block;
   max-width: 25em;
-  text-align: left;
+  flex-wrap: wrap;
   clear: right;
 }
 
