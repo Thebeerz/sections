@@ -19,7 +19,6 @@ body {
 
 img {
   display: block;
-  padding: 3em 1em 0;
   margin-top: 1em;
   width: 100%;
   max-width: 25em;
@@ -31,8 +30,7 @@ h2 {
   color: #000;
   padding-top: 1.5em;
   margin: .75em;
-  display: inline-block;
-  text-align: center;
+  justify-content: center;
   max-width: 25em;
   clear: both;
 }
@@ -43,7 +41,7 @@ div p {
   max-width: 25em;
   flex-wrap: wrap;
   clear: right;
-  text-align: left;
+  justify-content: center;
 }
 
 .btn {
