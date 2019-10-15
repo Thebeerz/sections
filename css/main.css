@@ -44,7 +44,7 @@ div p {
   justify-content: center;
 }
 
-.btn a {
+.btn {
   display: inline-block;
   border-radius: .5em;
   margin: 1em;
@@ -54,11 +54,21 @@ div p {
   border-style: solid;
   border-color: #333;
   border-width: medium;
-  text-align: center;
   text-decoration: none;
   max-width: 25em;
   font-size: 1.125rem;
   float: none;
+}
+
+a {
+  display: inline-block;
+  padding: 1em;
+  border-radius: .5em;
+  color: #333
+  background-color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-style: solid;
 }
 
 .btn:hover {
