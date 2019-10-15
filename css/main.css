@@ -1,7 +1,9 @@
 html {
   box-sizing: border-box;
   max-width: 960px;
-  margin: 1em auto;
+  margin: 1em auto
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -10,10 +12,9 @@ html {
 
 body {
   background-color: #eee9de;
-  font-family: Lato, sans-serif;
   padding: .4em .75em .5em;
   margin: 0;
-  line-height: 1.5;
+  text-align: left;
   display: inline-block;
   vertical-align: middle;
 }
