@@ -45,7 +45,6 @@ div p {
 }
 
 .btn {
-  text-align: center;
   display: inline-block;
   border-radius: .5em;
   margin: 1em;
@@ -62,6 +61,7 @@ div p {
 }
 
 .btn:hover {
+  text-align: center;
   background-color: #666;
   color: #fff;
 }
