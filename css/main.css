@@ -23,6 +23,7 @@ img {
   width: 100%;
   max-width: 25em;
   float: left;
+  text-align: center;
 }
 
 h2 {
@@ -61,7 +62,6 @@ div p {
 }
 
 .btn:hover {
-  text-align: center;
   background-color: #666;
   color: #fff;
 }
