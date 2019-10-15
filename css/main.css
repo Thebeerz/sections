@@ -50,12 +50,11 @@ div p {
   border-style: solid;
   border-color: #333;
   border-width: medium;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
   max-width: 25em;
   font-size: 1.25rem;
   float: none;
-  text-align: center;
 }
 
 .btn:hover {
