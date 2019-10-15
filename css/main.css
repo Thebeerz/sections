@@ -2,6 +2,8 @@ html {
   box-sizing: border-box;
   max-width: 960px;
   margin: 1em 0;
+  margin-left: auto;
+  margin-right: auto;
   font-family: Lato, sans-serif;
   line-height: 1.5;
 }
@@ -14,21 +16,31 @@ body {
   background-color: #eee9de;
   padding: .4em .75em .5em;
   margin: 0;
-  text-align: left;
   display: inline-block;
   vertical-align: middle;
+  max-width: inherit;
+  text-align: left;
+  justify-content: center;
 }
 
 img {
   display: block;
-  margin-top: .5em;
-  width: 100%;
   max-width: 25em;
-  padding: 1em;
+  margin-top: .5em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
   float: left;
 }
 
 h2 {
+  display: inline-block;
+  max-width: inherit;
+  flex-wrap: wrap;
+  padding-top: 0;
   color: #000;
 }
 
@@ -51,6 +63,22 @@ h2 {
   color: #fff;
 }
 
+button {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
 .box {
   float: right;
+}
+
+p, h2, button {
+  margin-left: .6em;
+  margin-right: .6em;
+}
+
+p {
+  display: flex;
+  max-width: inherit;
+  flex-wrap: wrap;
 }
