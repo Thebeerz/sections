@@ -33,13 +33,14 @@ h2 {
   justify-content: center;
   max-width: 25em;
   clear: both;
-  text-align: center;
+  text-align: left;
 }
 
 div p {
   display: inline-block;
   margin: 1em;
   max-width: 25em;
+  width: 95%;
   flex-wrap: wrap;
   clear: right;
   justify-content: center;
