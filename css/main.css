@@ -41,6 +41,7 @@ div p {
   max-width: 25em;
   flex-wrap: wrap;
   clear: right;
+  text-align: center;
   justify-content: center;
 }
 
@@ -59,17 +60,6 @@ div p {
   font-size: 1.125rem;
   float: none;
   text-align: center;
-}
-
-a {
-  display: inline-block;
-  padding: 1em;
-  border-radius: .5em;
-  color: #333;
-  background-color: #fff;
-  text-decoration: none;
-  text-align: center;
-  border-style: solid;
 }
 
 .btn:hover {
