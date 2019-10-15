@@ -30,11 +30,11 @@ img {
 
 h2 {
   color: #000;
-  padding: .5em 1em 0;
+  margin: 0 .75em 1em;
 }
 
 div p {
-  padding: 1em;
+  margin: 0 1.5em;
   max-width: 25em;
   width: 95%;
   flex-wrap: wrap;
@@ -49,6 +49,7 @@ img section {
 
 section {
   margin: 3em;
+  padding: .5em 1em 0;
 }
 
 div {
@@ -57,11 +58,14 @@ div {
   max-width: 25em;
   clear: both;
   text-align: left;
+  margin: auto;
+  padding: .5em 1em 0;
 }
 
 .btn {
   border-radius: .5em;
   padding: .5em;
+  margin: 0 1.9em;
   color: #333;
   background-color: #eee9de;
   border-style: solid;
