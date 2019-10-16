@@ -21,12 +21,10 @@ body {
 
 img {
   background-color: #eee9de;
-  display: block;
   vertical-align: middle;
   max-width: 25em;
   padding: 1em;
   width: 100%;
-  float: left;
 }
 
 .box2 .box {
@@ -34,7 +32,10 @@ img {
   display: inline-block;
   max-width: 25em;
   padding: 1em
+}
 
+.box2 {
+  float: left;
 }
 
 h2 {
