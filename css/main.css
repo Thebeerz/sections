@@ -26,7 +26,6 @@ section {
 img {
   background-color: #eee9de;
   display: block;
-  vertical-align: middle;
   max-width: 25em;
   padding: 1em;
   width: 100%;
@@ -37,6 +36,7 @@ img {
   display: inline-block;
   max-width: 25em;
   padding: 1em;
+  vertical-align: middle;
 }
 
 .box2 {
