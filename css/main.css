@@ -15,12 +15,17 @@ html {
 body {
   background-color: #eee9de;
   padding: 2em 0;
-  margin: .3em;
+  margin: 0;
   text-align: left;
+}
+
+section {
+  margin: .3em;
 }
 
 img {
   background-color: #eee9de;
+  display: inline-block;
   vertical-align: middle;
   max-width: 25em;
   padding: 1em;
@@ -31,7 +36,7 @@ img {
   text-align: left;
   display: inline-block;
   max-width: 25em;
-  padding: 1em
+  padding: 1em;
 }
 
 .box2 {
@@ -40,7 +45,7 @@ img {
 
 h2 {
   flex-wrap: wrap;
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 1.5rem;
     /* padding-bottom: 0; */
   color: #000;
   font-size: 1.5em;
@@ -82,7 +87,7 @@ p {
   flex-wrap: wrap;
   max-width: inherit;
   width: auto;
-  margin: 0 0 1.5rem 0;
+  margin: 0 0 1.5rem;
   /* margin-right: 5em; */
   /* margin-left: 1em; */
 }
