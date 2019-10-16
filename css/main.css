@@ -78,7 +78,7 @@ button {
 
 p, h2, button {
   background-color: #eee9de;
-  margin-left: 0;
+  margin-left: .6em;
   margin-right: .6em;
   margin-top: .5em;
 }
