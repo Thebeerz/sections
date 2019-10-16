@@ -25,8 +25,8 @@ img {
   background-color: #eee9de;
   display: block;
   max-width: 25em;
-  padding: 1em;
   width: 100%;
+  margin: 2em;
 }
 
 .box2 .box {
@@ -34,6 +34,7 @@ img {
   display: inline-block;
   max-width: 25em;
   padding: 1em;
+  margin: 1em;
   vertical-align: middle;
 }
 
@@ -42,8 +43,8 @@ img {
 }
 
 h2 {
-  flex-wrap: wrap;
-  margin: 0 0 1.5rem;
+  display: inline-block;
+  margin: 1.5em 0;
   color: #000;
   font-size: 1.5em;
 }
@@ -70,11 +71,6 @@ h2 {
 button {
   margin-top: .5em;
   padding-top: 1em;
-}
-
-.box {
-  float: right;
-  margin-left: 3em;
 }
 
 p {
